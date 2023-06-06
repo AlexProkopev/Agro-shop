@@ -1,0 +1,180 @@
+:root {
+  --text-color: #48555b;
+  --secondary-text-color: #ffffff;
+  --bn-bg-color: #00a4e5;
+  --current-color: #00a4e5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  display: block;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: var(--text-color);
+}
+
+/* -------------Container------------- */
+
+.container {
+  width: 940px;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+/* -----------HERO------------- */
+
+.section-hero {
+  padding-top: 41px;
+  padding-bottom: 71px;
+  max-width: auto;
+
+  margin: 0 auto;
+
+  background-image: url(../images/images-img/header-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.wrap-text-hero {
+  margin-top: 221px;
+}
+
+.logo-link {
+  color: var(--secondary-text-color);
+  transition: all 250ms linear;
+}
+
+.logo-link:hover,
+.logo-link:focus,
+.scroll-link:hover,
+.scroll-link:focus {
+  transform: scale(120%);
+  color: var(--current-color);
+}
+
+.title-hero {
+  text-align: center;
+  font-size: 60px;
+  line-height: 1.16;
+  letter-spacing: 5.70937px;
+
+  color: var(--secondary-text-color);
+}
+.text-hero {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.18;
+
+  color: var(--secondary-text-color);
+}
+
+.scroll-link {
+  font-size: 11px;
+  line-height: 1.18;
+  padding: 8px;
+
+  letter-spacing: 3.7px;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+
+  margin-top: 221px;
+
+  transition: all 250ms linear;
+}
+
+/* ----------------HEADER---------------- */
+
+.header {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.header-nav-list {
+  display: flex;
+  gap: 49px;
+}
+.nav-link {
+  display: block;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 1.09091px;
+  color: var(--text-color);
+  font-variant: all-small-caps;
+
+  text-transform: uppercase;
+
+  transition: all 250ms linear;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  transform: scale(120%);
+  color: var(--bn-bg-color);
+}
+
+.current {
+  color: var(--current-color);
+}
+
+/* ---------------SECION-2-------------------- */
+
+.title-section-story {
+  text-align: center;
+  letter-spacing: 0.1875px;
+  font-size: 18px;
+  line-height: 1.16;
+}
+
+.text-story-left {
+  letter-spacing: 0.1875px;
+  font-size: 20px;
+  line-height: 1.15;
+}
+
+.title-left-conten {
+  font-size: 20px;
+  line-height: 1.15;
+}
