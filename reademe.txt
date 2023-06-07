@@ -1,0 +1,4 @@
+https://www.figma.com/file/zR1XfguUZ5wWWOy6ah30Xq/konstruct-template?type=design&node-id=0%3A2&t=pqueMC7yiGDU29R8-1
+
+Макет страницы
+Так как в данном макете нет адаптивных версий,я сделал просто фиксированую.

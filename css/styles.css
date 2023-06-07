@@ -139,6 +139,15 @@ body {
   display: flex;
   gap: 49px;
 }
+
+.logo-link-header {
+  transition: all 250ms linear;
+}
+
+.logo-link-header:hover {
+  transform: scale(110%);
+}
+
 .nav-link {
   display: block;
   font-size: 12px;
@@ -516,6 +525,21 @@ body {
   text-transform: uppercase;
 }
 
+.footer-nav-item,
+.footer-nav-link {
+  transition: 250ms linear;
+}
+
+.footer-nav-item:hover,
+.footer-nav-item:focus {
+  transform: scale(110%);
+}
+
+.footer-nav-link:hover,
+.footer-nav-link:focus {
+  color: var(--current-color);
+}
+
 .faq-list {
   margin-top: 35px;
 }
@@ -537,6 +561,13 @@ body {
 
   text-transform: capitalize;
   letter-spacing: 0.846154px;
+
+  transition: 250ms linear;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--current-color);
 }
 
 .location-link {
