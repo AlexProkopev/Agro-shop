@@ -410,6 +410,8 @@ body {
   (min-resolution: 2dppx) {
   .section-build {
     background-image: url(../images/images-img/under-footer-bg@2x.jpg);
+    background-size: cover;
+    background-position: center;
   }
 }
 
