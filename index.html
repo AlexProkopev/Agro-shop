@@ -33,11 +33,11 @@
           <p class="text-hero">An award-winning construction management firm</p>
         </div>
 
-        <a href="#story" class="scroll-link">SCROLL DOWN</a>
+        <a href="#header" class="scroll-link">SCROLL DOWN</a>
       </div>
     </section>
 
-    <header class="section-header header">
+    <header class="section-header header" id="header">
       <div class="container">
         <nav class="header-nav">
           <a href="" class="logo-link-header">
@@ -80,35 +80,56 @@
               <ul class="img-right-content">
                 <li>
                   <a href="" class="img-right-content-link">
-                    <img
-                      class="img-story"
-                      srcset="./images/images-img/we-build@2x.jpg 2x"
-                      src="./images/images-img/we-build.jpg"
-                      alt="we build"
-                    />
+                    <picture>
+                      <source srcset="./images/images-img/we-plan@2x.jpg 2x" />
+                      <source
+                        srcset="we-plan.webp 1x, we-plan.webp@2x 2x"
+                        type="webp"
+                      />
+                      <img
+                        class="img-story"
+                        src="./images/images-img/we-plan.jpg"
+                        alt="we plan"
+                      />
+                    </picture>
 
                     <p class="content-in-img">We Plan</p>
                   </a>
                 </li>
                 <li>
                   <a href="" class="img-right-content-link">
-                    <img
-                      class="img-story"
-                      srcset="./images/images-img/we-manage@2x.jpg 2x"
-                      src="./images/images-img/we-manage.jpg"
-                      alt="we manage"
-                    />
+                    <picture>
+                      <source
+                        srcset="./images/images-img/we-manage@2x.jpg 2x"
+                      />
+                      <source
+                        srcset="we-manage.webp 1x, we-manage.webp@2x 2x"
+                        type="webp"
+                      />
+                      <img
+                        class="img-story"
+                        src="./images/images-img/we-manage.jpg"
+                        alt="we manage"
+                      />
+                    </picture>
                     <p class="content-in-img">We manage</p>
                   </a>
                 </li>
                 <li>
                   <a href="" class="img-right-content-link">
-                    <img
-                      class="img-story"
-                      srcset="./images/images-img/we-plan@2x.jpg 2x"
-                      src="./images/images-img/we-plan.jpg"
-                      alt="we plan"
-                    />
+                    <picture>
+                      <source srcset="./images/images-img/we-build@2x.jpg 2x" />
+                      <source
+                        srcset="we-build.webp 1x, we-build.webp@2x 2x"
+                        type="webp"
+                      />
+                      <img
+                        class="img-story"
+                        src="./images/images-img/we-build.jpg"
+                        alt="we build"
+                      />
+                    </picture>
+
                     <p class="content-in-img">We build</p>
                   </a>
                 </li>
@@ -315,7 +336,7 @@
 
       <div class="policy">
         <p class="policy-text">
-          © 2017 Konstruct Inc. Designed by Jane Kathryn Teo
+          &#169; 2017 Konstruct Inc. Designed by Jane Kathryn Teo
         </p>
       </div>
     </footer>
