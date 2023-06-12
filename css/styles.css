@@ -403,6 +403,9 @@ body {
   padding-top: 120px;
   padding-bottom: 231px;
   background-image: url(../images/images-img/under-footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 @media (min-device-ratio: 2),
@@ -410,8 +413,6 @@ body {
   (min-resolution: 2dppx) {
   .section-build {
     background-image: url(../images/images-img/under-footer-bg@2x.jpg);
-    background-size: cover;
-    background-position: center;
   }
 }
 
